@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif; 
+  
+}
+
+.background {
+  background-image: url(' https://source.unsplash.com/random/1920x1080/?wallpaper,landscape');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+.form {
+  
+  background-color: whitesmoke;
+  border-radius: 2px;
+  padding: 30px;
+  /* margin: -90px right; */
+  max-width: 700px;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.form label {
+  
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="date"],
+.form textarea,
+.form select {
+    
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form input[type="checkbox"] {
+  margin-right: 5px;
+  
+}
+
+.form input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50; 
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ 
+}
+
+.form input[type="submit"]:hover {
+  background-color: #000501; 
+}
+
+.gender-checkboxes {
+  margin-bottom: 15px; 
+}
+
+.gender-checkboxes label {
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.hobbies-checkboxes label {
+  display: inline-block;
+  margin-right: 15px; 
+}
+
+.checkbox input[type="checkbox"],
+.checkbox label {
+  display: inline-block;
+
+}
